@@ -15,13 +15,13 @@ app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/article-two', function (req, res) {
-  res.send(path.join("article two requesteed and will be served"));});
+  res.send(path.join("article two requested and will be served"));});
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 app.get('/article-three', function (req, res) {
-  res.send(path.join("article three requesteed and will be served"));
+  res.send(path.join("article three requested and will be served"));
 });
 
 
